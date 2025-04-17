@@ -4,7 +4,53 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Esempi CSS List Style</title>
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Stili base */
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1 {
+      color: #0066cc;
+    }
+
+    /* Liste non ordinate */
+    ul.disc {
+      list-style-type: disc;
+    }
+
+    ul.circle {
+      list-style-type: circle;
+    }
+
+    ul.square {
+      list-style-type: square;
+    }
+
+    /* Liste ordinate */
+    ol.roman {
+      list-style-type: upper-roman;
+    }
+
+    ol.alpha {
+      list-style-type: lower-alpha;
+    }
+
+    /* Marcatori personalizzati con ::before */
+    ul.custom {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul.custom li::before {
+      content: "👉 ";
+      color: orange;
+      margin-right: 8px;
+    }
+  </style>
 </head>
 <body>
 
@@ -48,12 +94,6 @@
   <ul class="custom">
     <li>Elemento A</li>
     <li>Elemento B</li>
-  </ul>
-
-  <h2>🔹 Lista con immagine personalizzata</h2>
-  <ul class="image">
-    <li>Icona uno</li>
-    <li>Icona due</li>
   </ul>
 
 </body>
