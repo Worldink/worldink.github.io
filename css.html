@@ -1,100 +1,87 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Esempi CSS List Style</title>
+  <meta charset="UTF-8">
+  <title>Guida per Programmatori Novizi</title>
   <style>
-    /* Stili base */
     body {
-      font-family: sans-serif;
-      padding: 2rem;
-      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
       color: #333;
+      margin: 0;
+      padding: 20px;
     }
 
-    h1 {
-      color: #0066cc;
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
     }
 
-    /* Liste non ordinate */
-    ul.disc {
-      list-style-type: disc;
+    section {
+      margin-top: 20px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
-    ul.circle {
-      list-style-type: circle;
+    h1, h2 {
+      margin-top: 0;
     }
 
-    ul.square {
-      list-style-type: square;
+    code {
+      background-color: #eee;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-family: monospace;
     }
 
-    /* Liste ordinate */
-    ol.roman {
-      list-style-type: upper-roman;
-    }
-
-    ol.alpha {
-      list-style-type: lower-alpha;
-    }
-
-    /* Marcatori personalizzati con ::before */
-    ul.custom {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    ul.custom li::before {
-      content: "👉 ";
-      color: orange;
-      margin-right: 8px;
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
     }
   </style>
 </head>
 <body>
 
-  <h1>🎨 Esempi di Marcatori in CSS</h1>
+  <header>
+    <h1>Guida per Programmatori Novizi</h1>
+    <p>Introduzione all'HTML e CSS</p>
+  </header>
 
-  <h2>🔹 Liste non ordinate</h2>
+  <section>
+    <h2>Cos'è l'HTML?</h2>
+    <p>HTML è il linguaggio utilizzato per creare il contenuto di una pagina web. Usa tag come <code>&lt;p&gt;</code> per paragrafi e <code>&lt;a&gt;</code> per i link.</p>
+  </section>
 
-  <h3>• Disc</h3>
-  <ul class="disc">
-    <li>Voce uno</li>
-    <li>Voce due</li>
-  </ul>
+  <section>
+    <h2>Cos'è il CSS?</h2>
+    <p>CSS serve per definire lo stile di una pagina web. Puoi cambiare colori, font, spaziature e molto altro. Ad esempio:</p>
+    <pre><code>p {
+  color: blue;
+  font-size: 16px;
+}</code></pre>
+  </section>
 
-  <h3>• Circle</h3>
-  <ul class="circle">
-    <li>Voce uno</li>
-    <li>Voce due</li>
-  </ul>
+  <section>
+    <h2>Consigli per iniziare</h2>
+    <ul>
+      <li>Scrivi codice semplice e chiaro</li>
+      <li>Usa un editor di testo come VS Code</li>
+      <li>Salva i file con estensione <code>.html</code> e <code>.css</code></li>
+      <li>Apri i file HTML con un browser</li>
+    </ul>
+  </section>
 
-  <h3>• Square</h3>
-  <ul class="square">
-    <li>Voce uno</li>
-    <li>Voce due</li>
-  </ul>
-
-  <h2>🔹 Liste ordinate</h2>
-
-  <h3>• Upper Roman</h3>
-  <ol class="roman">
-    <li>Primo</li>
-    <li>Secondo</li>
-  </ol>
-
-  <h3>• Lower Alpha</h3>
-  <ol class="alpha">
-    <li>Uno</li>
-    <li>Due</li>
-  </ol>
-
-  <h2>🔹 Marcatori personalizzati con ::before</h2>
-  <ul class="custom">
-    <li>Elemento A</li>
-    <li>Elemento B</li>
-  </ul>
+  <footer>
+    © 2025 - Guida per Principianti
+  </footer>
 
 </body>
 </html>
+
