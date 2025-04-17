@@ -1,86 +1,123 @@
---🏗️ Struttura di base
-<!--<!DOCTYPE html>   <!-- Definisce il tipo di documento -->
-<!--<html>            <!-- Radice del documento HTML -->
-<!--<head>            <!-- Contiene metadati -->
-<!--<title>           <!-- Titolo della pagina -->
-<!--<body>            <!-- Corpo della pagina -->
+# 📘 Elenco dei Principali Marcatori HTML
 
-  📝 Testo e contenuti
-<!--<h1>…<h6>       <!-- Intestazioni da h1 (più grande) a h6 (più piccola) -->
-<!--<p>             <!-- Paragrafo -->
-<!--<br>            <!-- Interruzione di riga -->
-<!--<hr>            <!-- Riga orizzontale -->
-<!--<strong>, <b>   <!-- Testo in grassetto -->
-<!--<em>, <i>       <!-- Testo in corsivo -->
-<!--<mark>          <!-- Evidenzia testo -->
-<!--<small>         <!-- Testo piccolo -->
-<blockquote>    <!-- Citazione lunga -->
-<q>             <!-- Citazione breve -->
-<code>          <!-- Testo monospaziato (codice) -->
-<pre>           <!-- Testo preformattato -->
-<abbr>          <!-- Abbreviazione -->
-<cite>          <!-- Titolo di un'opera -->
-🔗 Link e navigazione
+Questo file contiene un elenco organizzato dei principali **tag HTML** (marcatori), utili per la creazione di pagine web strutturate, accessibili e semanticamente corrette.
 
-<a href="url">   <!-- Collegamento ipertestuale -->
-<nav>            <!-- Sezione di navigazione -->
+---
 
-  🖼️ Immagini e media
-<img src="url" alt="descrizione">   <!-- Immagine -->
-<figure>         <!-- Figura con didascalia -->
-<figcaption>     <!-- Didascalia dell'immagine -->
-<video>, <audio> <!-- Elementi multimediali -->
-<source>         <!-- Sorgente per media -->
+## 🏗️ Struttura di Base
 
-  📋 Liste
-<ul>             <!-- Lista non ordinata -->
-<ol>             <!-- Lista ordinata -->
-<li>             <!-- Elemento di lista -->
-<dl>             <!-- Lista di definizione -->
-<dt>, <dd>       <!-- Termini e definizioni -->
+- `<!DOCTYPE html>` – Tipo di documento
+- `<html>` – Radice del documento
+- `<head>` – Metadati
+- `<title>` – Titolo della pagina
+- `<body>` – Contenuto visibile
 
-  🧩 Contenitori e layout
-<div>            <!-- Contenitore generico -->
-<span>           <!-- Contenitore in linea -->
-<section>        <!-- Sezione di contenuto -->
-<article>        <!-- Articolo indipendente -->
-<header>         <!-- Intestazione -->
-<footer>         <!-- Piè di pagina -->
-<aside>          <!-- Contenuto laterale -->
-<main>           <!-- Contenuto principale -->
-📋 Tabelle
-<table>          <!-- Tabella -->
-<tr>             <!-- Riga -->
-<td>             <!-- Cella -->
-<th>             <!-- Intestazione -->
-<thead>, <tbody>, <tfoot> <!-- Sezioni della tabella -->
-<caption>        <!-- Titolo tabella -->
-<colgroup>, <col> <!-- Gruppo di colonne -->
+---
 
-  🧠 Form e input
-<form>           <!-- Modulo -->
-<input>          <!-- Campo di input -->
-<textarea>       <!-- Area di testo -->
-<select>         <!-- Menù a tendina -->
-<option>         <!-- Opzione del select -->
-<button>         <!-- Pulsante -->
-<label>          <!-- Etichetta -->
-<fieldset>       <!-- Raggruppa elementi -->
-<legend>         <!-- Titolo del fieldset -->
-⚙️ Metadati e script
-html
-Copia
-Modifica
-<meta>           <!-- Metadati -->
-<link>           <!-- Collegamenti a risorse esterne -->
-<style>          <!-- CSS interno -->
-<script>         <!-- JavaScript -->
-<base>           <!-- Base URL -->
+## 📝 Testo e Formattazione
 
-  📌 Tag semantici HTML5
-<!-- <article>, <section>, <aside>, <nav>, <main>, <header>, <footer>, <figure>, <figcaption>, <mark>, <time>
+- `<h1>` … `<h6>` – Intestazioni (da grande a piccola)
+- `<p>` – Paragrafo
+- `<br>` – Interruzione di riga
+- `<hr>` – Linea orizzontale
+- `<strong>`, `<b>` – Grassetto
+- `<em>`, `<i>` – Corsivo
+- `<mark>` – Evidenziato
+- `<small>` – Testo piccolo
+- `<blockquote>` – Citazione lunga
+- `<q>` – Citazione breve
+- `<code>` – Codice inline
+- `<pre>` – Testo preformattato
+- `<abbr>` – Abbreviazione
+- `<cite>` – Riferimento a una fonte
 
- 🧪 Tag speciali
-<!-- <details>, <summary>   <!-- Contenuto espandibile -->
-<!-- <dialog>               <!-- Finestra di dialogo -->
-<!-- <template>             <!-- Template invisibile -->  
+---
+
+## 🔗 Collegamenti e Navigazione
+
+- `<a>` – Collegamento ipertestuale
+- `<nav>` – Area di navigazione
+
+---
+
+## 🖼️ Immagini e Media
+
+- `<img>` – Immagine
+- `<figure>` – Contenitore per media + didascalia
+- `<figcaption>` – Didascalia
+- `<audio>`, `<video>` – File multimediali
+- `<source>` – Sorgente alternativa
+
+---
+
+## 📋 Liste
+
+- `<ul>` – Lista non ordinata
+- `<ol>` – Lista ordinata
+- `<li>` – Elemento di lista
+- `<dl>` – Lista di definizione
+- `<dt>` – Termine
+- `<dd>` – Definizione
+
+---
+
+## 🧩 Contenitori e Layout
+
+- `<div>` – Contenitore generico a blocco
+- `<span>` – Contenitore generico in linea
+- `<section>` – Sezione logica
+- `<article>` – Contenuto autonomo
+- `<header>` – Intestazione
+- `<footer>` – Piè di pagina
+- `<aside>` – Contenuto laterale
+- `<main>` – Contenuto principale
+
+---
+
+## 📊 Tabelle
+
+- `<table>` – Tabella
+- `<tr>` – Riga
+- `<td>` – Cella
+- `<th>` – Intestazione di colonna/riga
+- `<thead>`, `<tbody>`, `<tfoot>` – Sezioni della tabella
+- `<caption>` – Titolo tabella
+- `<colgroup>`, `<col>` – Gruppo di colonne
+
+---
+
+## 🧠 Moduli (Form)
+
+- `<form>` – Modulo
+- `<input>` – Campo di input
+- `<textarea>` – Area di testo
+- `<select>`, `<option>` – Menù a tendina
+- `<button>` – Pulsante
+- `<label>` – Etichetta
+- `<fieldset>`, `<legend>` – Raggruppamento di campi
+
+---
+
+## ⚙️ Metadati e Risorse
+
+- `<meta>` – Metadati (es. charset, description)
+- `<link>` – Collegamenti a file esterni (CSS, favicon)
+- `<style>` – CSS interno
+- `<script>` – Codice JavaScript
+- `<base>` – Base URL
+
+---
+
+## 🧪 HTML5 Semantico e Speciale
+
+- `<time>` – Data e ora
+- `<details>`, `<summary>` – Contenuto espandibile
+- `<dialog>` – Finestra di dialogo
+- `<template>` – Template invisibile
+
+---
+
+## 🗒️ Commenti in HTML
+
+```html
+<!-- Questo è un commento -->
